@@ -78,19 +78,32 @@
     // 部分浏览器（尤其移动端）语音列表异步加载，加载完再刷新
     window.speechSynthesis.onvoiceschanged = loadVoices;
   }
+  // 优先用云端 TTS（后端 edge-tts 生成 mp3），兼容华为/微信/iOS 等所有浏览器；
+  // 仅在 TTS 不可用时回退到浏览器自带 Web Speech。
+  let _audio = null;
   function speak(text) {
+    if (!text) return;
+    if (_audio) { try { _audio.pause(); } catch (e) {} _audio = null; }
+    const url = "/api/tts?text=" + encodeURIComponent(text);
+    _audio = new Audio(url);
+    _audio.play().catch(() => fallbackSpeak(text));
+  }
+  function fallbackSpeak(text) {
     if (!("speechSynthesis" in window)) {
-      showToast("当前浏览器不支持语音，请用手机系统 Safari / Chrome 打开");
+      showToast("当前网络环境无法发音，请在稳定网络下重试，或换 Chrome / Safari");
       return;
     }
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "en-US";
-    u.rate = 0.9; u.pitch = 1;
-    const v = pickEnglishVoice();
-    if (v) u.voice = v; // 显式选用英文嗓，避免中文手机静音
-    u.onerror = () => showToast("发音失败：该设备可能未安装英文语音包");
-    try { window.speechSynthesis.cancel(); } catch (e) {}
-    window.speechSynthesis.speak(u);
+    try {
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = "en-US"; u.rate = 0.9; u.pitch = 1;
+      const v = pickEnglishVoice();
+      if (v) u.voice = v;
+      u.onerror = () => showToast("发音失败：该设备可能未安装英文语音包");
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(u);
+    } catch (e) {
+      showToast("当前浏览器无法发音");
+    }
   }
 
   // ---------- 数据 ----------

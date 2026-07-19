@@ -1,3 +1,4 @@
 Flask>=3.0
 python-dotenv>=1.0
 waitress>=2.1   # 生产级 WSGI 服务器，跨平台（Windows/Linux 都能装）
+edge-tts>=6.1   # 微软免费云端 TTS，生成英文发音 mp3（绕开浏览器 Web Speech 兼容性坑）

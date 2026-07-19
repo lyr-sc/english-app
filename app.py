@@ -14,10 +14,18 @@ import json
 import time
 import random
 import threading
+import hashlib
+import asyncio
 import urllib.request
 import urllib.error
 
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, send_file
+
+try:
+    import edge_tts
+    _HAS_EDGE_TTS = True
+except ImportError:
+    _HAS_EDGE_TTS = False
 
 # 若项目根目录有 .env，自动加载其中的环境变量（如 ENG_DEEPSEEK_KEY）
 try:
@@ -32,6 +40,12 @@ DATA_DIR = os.path.join(app.root_path, "data")
 STARTER_FILE = os.path.join(DATA_DIR, "sentences.json")
 USER_FILE = os.path.join(DATA_DIR, "user_sentences.json")
 DEEPSEEK_URL = "https://api.deepseek.com/chat/completions"
+
+# 云端 TTS（edge-tts，微软免费英文嗓）：后端生成 mp3，前端用 <audio> 播放，
+# 可绕开华为/微信/iOS 等浏览器对 Web Speech API 支持差的问题。
+TTS_DIR = os.path.join(app.root_path, "static", "tts")
+os.makedirs(TTS_DIR, exist_ok=True)
+_TTS_VOICE = "en-US-AriaNeural"
 
 
 # ---------------- 数据加载 ----------------
@@ -244,6 +258,32 @@ def api_quiz():
     learned_ids = body.get("learned_ids", [])
     questions = build_quiz(learned_ids)
     return jsonify({"questions": questions})
+
+
+# ---------------- 云端 TTS ----------------
+async def _edge_generate(text, path):
+    communicate = edge_tts.Communicate(text, _TTS_VOICE)
+    await communicate.save(path)
+
+
+@app.route("/api/tts")
+def api_tts():
+    text = (request.args.get("text") or "").strip()
+    if not text:
+        return jsonify({"error": "缺少文本"}), 400
+    if len(text) > 200:
+        return jsonify({"error": "文本过长"}), 400
+    if not _HAS_EDGE_TTS:
+        return jsonify({"error": "服务端未启用 TTS"}), 501
+    # 按文本哈希缓存，避免重复生成（Render 临时磁盘重启后会重建，可接受）
+    key = hashlib.md5(text.lower().encode("utf-8")).hexdigest()
+    path = os.path.join(TTS_DIR, key + ".mp3")
+    if not os.path.exists(path):
+        try:
+            asyncio.run(_edge_generate(text, path))
+        except Exception as e:
+            return jsonify({"error": "TTS 生成失败：" + str(e)}), 502
+    return send_file(path, mimetype="audio/mpeg")
 
 
 if __name__ == "__main__":
