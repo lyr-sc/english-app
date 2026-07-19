@@ -62,11 +62,34 @@
   }
 
   // ---------- 发音 ----------
+  let _voices = [];
+  function loadVoices() {
+    if (!("speechSynthesis" in window)) return;
+    _voices = window.speechSynthesis.getVoices() || [];
+  }
+  function pickEnglishVoice() {
+    if (!_voices.length) return null;
+    // 优先美/英/澳式英文嗓，其次任意 en 开头嗓
+    return _voices.find(v => /^en[-_](US|GB|AU)/i.test(v.lang)) ||
+           _voices.find(v => /^en/i.test(v.lang)) || null;
+  }
+  if ("speechSynthesis" in window) {
+    loadVoices();
+    // 部分浏览器（尤其移动端）语音列表异步加载，加载完再刷新
+    window.speechSynthesis.onvoiceschanged = loadVoices;
+  }
   function speak(text) {
-    if (!("speechSynthesis" in window)) { showToast("当前浏览器不支持语音播放"); return; }
+    if (!("speechSynthesis" in window)) {
+      showToast("当前浏览器不支持语音，请用手机系统 Safari / Chrome 打开");
+      return;
+    }
     const u = new SpeechSynthesisUtterance(text);
-    u.lang = "en-US"; u.rate = 0.85; u.pitch = 1;
-    window.speechSynthesis.cancel();
+    u.lang = "en-US";
+    u.rate = 0.9; u.pitch = 1;
+    const v = pickEnglishVoice();
+    if (v) u.voice = v; // 显式选用英文嗓，避免中文手机静音
+    u.onerror = () => showToast("发音失败：该设备可能未安装英文语音包");
+    try { window.speechSynthesis.cancel(); } catch (e) {}
     window.speechSynthesis.speak(u);
   }
 
