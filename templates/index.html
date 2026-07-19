@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>英语零基础 · 句子学堂</title>
+  <link rel="stylesheet" href="/static/css/styles.css" />
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- 顶栏 -->
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">📘</div>
+        <div>
+          <h1>句子学堂</h1>
+          <p>零基础学英语 · 点词即懂</p>
+        </div>
+      </div>
+      <button class="icon-btn" id="btnSettings" title="设置">⚙️</button>
+    </header>
+
+    <!-- 进度 -->
+    <section class="progress">
+      <div class="row">
+        <span id="progressText">已学会 <b>0</b> 句</span>
+        <span id="levelTag" class="level-tag">等级 1</span>
+      </div>
+      <div class="bar"><i id="barFill"></i></div>
+    </section>
+
+    <!-- 沟通情景选择 -->
+    <section class="scenarios">
+      <div class="sc-title">🗣️ 选择沟通情景</div>
+      <div class="chips" id="scenarioBar"></div>
+    </section>
+
+    <!-- 单词详情 -->
+    <div class="detail empty" id="detail">
+      👆 点击上面的任意单词，查看中文意思、谐音并听发音
+    </div>
+
+    <!-- 句子卡 -->
+    <section class="card">
+      <div class="sentence-head">
+        <span class="level-tag" id="levelTag2">句子</span>
+        <span class="hint">点击单词查词 · 点 🔊 听整句</span>
+      </div>
+      <div class="sentence" id="sentence"></div>
+      <div class="actions">
+        <button class="btn btn-ghost" id="btnPlay">🔊 听整句</button>
+        <button class="btn btn-ghost" id="btnSkip">换一句</button>
+        <button class="btn btn-primary" id="btnLearned">我学会了 ➜</button>
+      </div>
+    </section>
+
+    <p class="footer">学习进度保存在本机浏览器 · 句子与检测由 Python 后端提供</p>
+  </div>
+
+  <!-- 设置抽屉 -->
+  <div class="overlay" id="overlay">
+    <div class="sheet">
+      <h2>设置</h2>
+      <p class="sub">连接 DeepSeek 可自动生成更多分级句子（Key 配置在服务端环境变量）</p>
+
+      <div class="field">
+        <label>当前等级</label>
+        <select id="levelSelect">
+          <option value="0">自动（随进度提升）</option>
+          <option value="1">等级 1 · 超短句</option>
+          <option value="2">等级 2 · 短句</option>
+          <option value="3">等级 3 · 中句</option>
+          <option value="4">等级 4 · 较长句</option>
+          <option value="5">等级 5 · 长句</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>生成句子的情景</label>
+        <select id="genScenario">
+          <option value="日常">日常</option>
+        </select>
+        <p class="note">生成的新句子会带上所选情景，之后可在上方情景栏单独练习。</p>
+        <p class="note">服务端 Key 由环境变量 <code>ENG_DEEPSEEK_KEY</code> 提供，前端无需填 Key。</p>
+      </div>
+
+      <div class="field">
+        <button class="btn btn-accent" id="btnGenerate" style="width:100%;justify-content:center;">✨ 用 DeepSeek 生成 5 句</button>
+        <div class="status" id="genStatus"></div>
+      </div>
+
+      <div class="actions">
+        <button class="btn btn-ghost" id="btnReset">清空进度</button>
+        <button class="btn btn-primary" id="btnSaveSettings">保存设置</button>
+      </div>
+      <div style="text-align:right;margin-top:10px;">
+        <button class="btn btn-ghost" id="btnCloseSheet">关闭</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 检测弹窗 -->
+  <div class="overlay" id="quizOverlay">
+    <div class="sheet quiz-sheet">
+      <h2>📝 学习检测</h2>
+      <p class="sub" id="quizSub">学了几句，测测掌握得怎么样</p>
+      <div id="quizBody"></div>
+      <div class="status" id="quizResult"></div>
+      <div class="actions" id="quizActions">
+        <button class="btn btn-primary" id="btnSubmitQuiz" style="flex:1;justify-content:center;">提交答案</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

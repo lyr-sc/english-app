@@ -1,0 +1,1990 @@
+[
+  {
+    "id": "l1-1",
+    "level": 1,
+    "text": "I am a boy.",
+    "words": [
+      {
+        "w": "I",
+        "zh": "我",
+        "py": "艾",
+        "ipa": "/aɪ/"
+      },
+      {
+        "w": "am",
+        "zh": "是",
+        "py": "艾姆",
+        "ipa": "/æm/"
+      },
+      {
+        "w": "a",
+        "zh": "一个",
+        "py": "厄",
+        "ipa": "/ə/"
+      },
+      {
+        "w": "boy",
+        "zh": "男孩",
+        "py": "波伊",
+        "ipa": "/bɔɪ/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l1-2",
+    "level": 1,
+    "text": "She is a girl.",
+    "words": [
+      {
+        "w": "She",
+        "zh": "她",
+        "py": "诗",
+        "ipa": "/ʃiː/"
+      },
+      {
+        "w": "is",
+        "zh": "是",
+        "py": "伊兹",
+        "ipa": "/ɪz/"
+      },
+      {
+        "w": "a",
+        "zh": "一个",
+        "py": "厄",
+        "ipa": "/ə/"
+      },
+      {
+        "w": "girl",
+        "zh": "女孩",
+        "py": "哥儿",
+        "ipa": "/ɡɜːrl/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l1-3",
+    "level": 1,
+    "text": "This is a cat.",
+    "words": [
+      {
+        "w": "This",
+        "zh": "这",
+        "py": "迪斯",
+        "ipa": "/ðɪs/"
+      },
+      {
+        "w": "is",
+        "zh": "是",
+        "py": "伊兹",
+        "ipa": "/ɪz/"
+      },
+      {
+        "w": "a",
+        "zh": "一个",
+        "py": "厄",
+        "ipa": "/ə/"
+      },
+      {
+        "w": "cat",
+        "zh": "猫",
+        "py": "凯特",
+        "ipa": "/kæt/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l1-4",
+    "level": 1,
+    "text": "I like you.",
+    "words": [
+      {
+        "w": "I",
+        "zh": "我",
+        "py": "艾",
+        "ipa": "/aɪ/"
+      },
+      {
+        "w": "like",
+        "zh": "喜欢",
+        "py": "赖克",
+        "ipa": "/laɪk/"
+      },
+      {
+        "w": "you",
+        "zh": "你",
+        "py": "尤",
+        "ipa": "/juː/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l1-5",
+    "level": 1,
+    "text": "We are friends.",
+    "words": [
+      {
+        "w": "We",
+        "zh": "我们",
+        "py": "威",
+        "ipa": "/wiː/"
+      },
+      {
+        "w": "are",
+        "zh": "是",
+        "py": "阿",
+        "ipa": "/ɑːr/"
+      },
+      {
+        "w": "friends",
+        "zh": "朋友",
+        "py": "弗兰兹",
+        "ipa": "/frendz/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l2-1",
+    "level": 2,
+    "text": "I have a red book.",
+    "words": [
+      {
+        "w": "I",
+        "zh": "我",
+        "py": "艾",
+        "ipa": "/aɪ/"
+      },
+      {
+        "w": "have",
+        "zh": "有",
+        "py": "哈夫",
+        "ipa": "/hæv/"
+      },
+      {
+        "w": "a",
+        "zh": "一个",
+        "py": "厄",
+        "ipa": "/ə/"
+      },
+      {
+        "w": "red",
+        "zh": "红色的",
+        "py": "瑞德",
+        "ipa": "/red/"
+      },
+      {
+        "w": "book",
+        "zh": "书",
+        "py": "布克",
+        "ipa": "/bʊk/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l2-2",
+    "level": 2,
+    "text": "He goes to school.",
+    "words": [
+      {
+        "w": "He",
+        "zh": "他",
+        "py": "喝",
+        "ipa": "/hiː/"
+      },
+      {
+        "w": "goes",
+        "zh": "去",
+        "py": "勾兹",
+        "ipa": "/ɡoʊz/"
+      },
+      {
+        "w": "to",
+        "zh": "到",
+        "py": "吐",
+        "ipa": "/tuː/"
+      },
+      {
+        "w": "school",
+        "zh": "学校",
+        "py": "斯库尔",
+        "ipa": "/skuːl/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l2-3",
+    "level": 2,
+    "text": "The dog is big.",
+    "words": [
+      {
+        "w": "The",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "dog",
+        "zh": "狗",
+        "py": "道格",
+        "ipa": "/dɔːɡ/"
+      },
+      {
+        "w": "is",
+        "zh": "是",
+        "py": "伊兹",
+        "ipa": "/ɪz/"
+      },
+      {
+        "w": "big",
+        "zh": "大的",
+        "py": "比格",
+        "ipa": "/bɪɡ/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l2-4",
+    "level": 2,
+    "text": "She eats an apple.",
+    "words": [
+      {
+        "w": "She",
+        "zh": "她",
+        "py": "诗",
+        "ipa": "/ʃiː/"
+      },
+      {
+        "w": "eats",
+        "zh": "吃",
+        "py": "伊兹",
+        "ipa": "/iːts/"
+      },
+      {
+        "w": "an",
+        "zh": "一个",
+        "py": "安",
+        "ipa": "/ən/"
+      },
+      {
+        "w": "apple",
+        "zh": "苹果",
+        "py": "艾坡",
+        "ipa": "/ˈæpl/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l2-5",
+    "level": 2,
+    "text": "We drink cold water.",
+    "words": [
+      {
+        "w": "We",
+        "zh": "我们",
+        "py": "威",
+        "ipa": "/wiː/"
+      },
+      {
+        "w": "drink",
+        "zh": "喝",
+        "py": "准克",
+        "ipa": "/drɪŋk/"
+      },
+      {
+        "w": "cold",
+        "zh": "冷的",
+        "py": "扣德",
+        "ipa": "/koʊld/"
+      },
+      {
+        "w": "water",
+        "zh": "水",
+        "py": "沃特",
+        "ipa": "/ˈwɔːtər/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l3-1",
+    "level": 3,
+    "text": "My mother cooks good food.",
+    "words": [
+      {
+        "w": "My",
+        "zh": "我的",
+        "py": "买",
+        "ipa": "/maɪ/"
+      },
+      {
+        "w": "mother",
+        "zh": "妈妈",
+        "py": "妈泽",
+        "ipa": "/ˈmʌðər/"
+      },
+      {
+        "w": "cooks",
+        "zh": "做饭",
+        "py": "库克斯",
+        "ipa": "/kʊks/"
+      },
+      {
+        "w": "good",
+        "zh": "好的",
+        "py": "古德",
+        "ipa": "/ɡʊd/"
+      },
+      {
+        "w": "food",
+        "zh": "食物",
+        "py": "夫德",
+        "ipa": "/fuːd/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l3-2",
+    "level": 3,
+    "text": "He reads a book every day.",
+    "words": [
+      {
+        "w": "He",
+        "zh": "他",
+        "py": "喝",
+        "ipa": "/hiː/"
+      },
+      {
+        "w": "reads",
+        "zh": "读",
+        "py": "瑞兹",
+        "ipa": "/riːdz/"
+      },
+      {
+        "w": "a",
+        "zh": "一个",
+        "py": "厄",
+        "ipa": "/ə/"
+      },
+      {
+        "w": "book",
+        "zh": "书",
+        "py": "布克",
+        "ipa": "/bʊk/"
+      },
+      {
+        "w": "every",
+        "zh": "每",
+        "py": "艾夫瑞",
+        "ipa": "/ˈevri/"
+      },
+      {
+        "w": "day",
+        "zh": "天",
+        "py": "得",
+        "ipa": "/deɪ/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l3-3",
+    "level": 3,
+    "text": "The sun is very bright.",
+    "words": [
+      {
+        "w": "The",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "sun",
+        "zh": "太阳",
+        "py": "桑",
+        "ipa": "/sʌn/"
+      },
+      {
+        "w": "is",
+        "zh": "是",
+        "py": "伊兹",
+        "ipa": "/ɪz/"
+      },
+      {
+        "w": "very",
+        "zh": "非常",
+        "py": "歪瑞",
+        "ipa": "/ˈveri/"
+      },
+      {
+        "w": "bright",
+        "zh": "明亮的",
+        "py": "布赖特",
+        "ipa": "/braɪt/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l3-4",
+    "level": 3,
+    "text": "We play games after school.",
+    "words": [
+      {
+        "w": "We",
+        "zh": "我们",
+        "py": "威",
+        "ipa": "/wiː/"
+      },
+      {
+        "w": "play",
+        "zh": "玩",
+        "py": "普累",
+        "ipa": "/pleɪ/"
+      },
+      {
+        "w": "games",
+        "zh": "游戏",
+        "py": "给姆兹",
+        "ipa": "/ɡeɪmz/"
+      },
+      {
+        "w": "after",
+        "zh": "在…之后",
+        "py": "阿夫特",
+        "ipa": "/ˈæftər/"
+      },
+      {
+        "w": "school",
+        "zh": "学校",
+        "py": "斯库尔",
+        "ipa": "/skuːl/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l3-5",
+    "level": 3,
+    "text": "She walks to the park.",
+    "words": [
+      {
+        "w": "She",
+        "zh": "她",
+        "py": "诗",
+        "ipa": "/ʃiː/"
+      },
+      {
+        "w": "walks",
+        "zh": "走路",
+        "py": "沃克斯",
+        "ipa": "/wɔːks/"
+      },
+      {
+        "w": "to",
+        "zh": "到",
+        "py": "吐",
+        "ipa": "/tuː/"
+      },
+      {
+        "w": "the",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "park",
+        "zh": "公园",
+        "py": "帕克",
+        "ipa": "/pɑːrk/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l4-1",
+    "level": 4,
+    "text": "I want to buy a new blue shirt.",
+    "words": [
+      {
+        "w": "I",
+        "zh": "我",
+        "py": "艾",
+        "ipa": "/aɪ/"
+      },
+      {
+        "w": "want",
+        "zh": "想要",
+        "py": "王特",
+        "ipa": "/wɑːnt/"
+      },
+      {
+        "w": "to",
+        "zh": "去(表目的)",
+        "py": "吐",
+        "ipa": "/tuː/"
+      },
+      {
+        "w": "buy",
+        "zh": "买",
+        "py": "拜",
+        "ipa": "/baɪ/"
+      },
+      {
+        "w": "a",
+        "zh": "一个",
+        "py": "厄",
+        "ipa": "/ə/"
+      },
+      {
+        "w": "new",
+        "zh": "新的",
+        "py": "纽",
+        "ipa": "/njuː/"
+      },
+      {
+        "w": "blue",
+        "zh": "蓝色的",
+        "py": "布鲁",
+        "ipa": "/bluː/"
+      },
+      {
+        "w": "shirt",
+        "zh": "衬衫",
+        "py": "舍特",
+        "ipa": "/ʃɜːrt/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l4-2",
+    "level": 4,
+    "text": "The teacher writes words on the board.",
+    "words": [
+      {
+        "w": "The",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "teacher",
+        "zh": "老师",
+        "py": "梯车",
+        "ipa": "/ˈtiːtʃər/"
+      },
+      {
+        "w": "writes",
+        "zh": "写",
+        "py": "赖茨",
+        "ipa": "/raɪts/"
+      },
+      {
+        "w": "words",
+        "zh": "单词",
+        "py": "沃兹",
+        "ipa": "/wɜːrdz/"
+      },
+      {
+        "w": "on",
+        "zh": "在…上",
+        "py": "昂",
+        "ipa": "/ɑːn/"
+      },
+      {
+        "w": "the",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "board",
+        "zh": "黑板",
+        "py": "波德",
+        "ipa": "/bɔːrd/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l4-3",
+    "level": 4,
+    "text": "We eat breakfast at seven in the morning.",
+    "words": [
+      {
+        "w": "We",
+        "zh": "我们",
+        "py": "威",
+        "ipa": "/wiː/"
+      },
+      {
+        "w": "eat",
+        "zh": "吃",
+        "py": "伊特",
+        "ipa": "/iːt/"
+      },
+      {
+        "w": "breakfast",
+        "zh": "早餐",
+        "py": "布雷克佛斯特",
+        "ipa": "/ˈbrekfəst/"
+      },
+      {
+        "w": "at",
+        "zh": "在",
+        "py": "艾特",
+        "ipa": "/æt/"
+      },
+      {
+        "w": "seven",
+        "zh": "七",
+        "py": "赛文",
+        "ipa": "/ˈsevn/"
+      },
+      {
+        "w": "in",
+        "zh": "在…里",
+        "py": "因",
+        "ipa": "/ɪn/"
+      },
+      {
+        "w": "the",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "morning",
+        "zh": "早晨",
+        "py": "莫宁",
+        "ipa": "/ˈmɔːrnɪŋ/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l4-4",
+    "level": 4,
+    "text": "He opens the window to get fresh air.",
+    "words": [
+      {
+        "w": "He",
+        "zh": "他",
+        "py": "喝",
+        "ipa": "/hiː/"
+      },
+      {
+        "w": "opens",
+        "zh": "打开",
+        "py": "欧喷兹",
+        "ipa": "/ˈoʊpənz/"
+      },
+      {
+        "w": "the",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "window",
+        "zh": "窗户",
+        "py": "温兜",
+        "ipa": "/ˈwɪndoʊ/"
+      },
+      {
+        "w": "to",
+        "zh": "去(表目的)",
+        "py": "吐",
+        "ipa": "/tuː/"
+      },
+      {
+        "w": "get",
+        "zh": "得到",
+        "py": "盖特",
+        "ipa": "/ɡet/"
+      },
+      {
+        "w": "fresh",
+        "zh": "新鲜的",
+        "py": "弗莱什",
+        "ipa": "/freʃ/"
+      },
+      {
+        "w": "air",
+        "zh": "空气",
+        "py": "艾尔",
+        "ipa": "/er/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l5-1",
+    "level": 5,
+    "text": "My father drives me to school every morning.",
+    "words": [
+      {
+        "w": "My",
+        "zh": "我的",
+        "py": "买",
+        "ipa": "/maɪ/"
+      },
+      {
+        "w": "father",
+        "zh": "爸爸",
+        "py": "法泽",
+        "ipa": "/ˈfɑːðər/"
+      },
+      {
+        "w": "drives",
+        "zh": "开车",
+        "py": "拽夫兹",
+        "ipa": "/draɪvz/"
+      },
+      {
+        "w": "me",
+        "zh": "我(宾格)",
+        "py": "米",
+        "ipa": "/miː/"
+      },
+      {
+        "w": "to",
+        "zh": "到",
+        "py": "吐",
+        "ipa": "/tuː/"
+      },
+      {
+        "w": "school",
+        "zh": "学校",
+        "py": "斯库尔",
+        "ipa": "/skuːl/"
+      },
+      {
+        "w": "every",
+        "zh": "每",
+        "py": "艾夫瑞",
+        "ipa": "/ˈevri/"
+      },
+      {
+        "w": "morning",
+        "zh": "早晨",
+        "py": "莫宁",
+        "ipa": "/ˈmɔːrnɪŋ/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l5-2",
+    "level": 5,
+    "text": "The small green bird sings a happy song.",
+    "words": [
+      {
+        "w": "The",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "small",
+        "zh": "小的",
+        "py": "斯莫",
+        "ipa": "/smɔːl/"
+      },
+      {
+        "w": "green",
+        "zh": "绿色的",
+        "py": "格林",
+        "ipa": "/ɡriːn/"
+      },
+      {
+        "w": "bird",
+        "zh": "鸟",
+        "py": "波德",
+        "ipa": "/bɜːrd/"
+      },
+      {
+        "w": "sings",
+        "zh": "唱歌",
+        "py": "辛兹",
+        "ipa": "/sɪŋz/"
+      },
+      {
+        "w": "a",
+        "zh": "一个",
+        "py": "厄",
+        "ipa": "/ə/"
+      },
+      {
+        "w": "happy",
+        "zh": "快乐的",
+        "py": "哈皮",
+        "ipa": "/ˈhæpi/"
+      },
+      {
+        "w": "song",
+        "zh": "歌",
+        "py": "桑",
+        "ipa": "/sɔːŋ/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "l5-3",
+    "level": 5,
+    "text": "We learn English words to speak with friends.",
+    "words": [
+      {
+        "w": "We",
+        "zh": "我们",
+        "py": "威",
+        "ipa": "/wiː/"
+      },
+      {
+        "w": "learn",
+        "zh": "学习",
+        "py": "勒恩",
+        "ipa": "/lɜːrn/"
+      },
+      {
+        "w": "English",
+        "zh": "英语",
+        "py": "英格利什",
+        "ipa": "/ˈɪŋɡlɪʃ/"
+      },
+      {
+        "w": "words",
+        "zh": "单词",
+        "py": "沃兹",
+        "ipa": "/wɜːrdz/"
+      },
+      {
+        "w": "to",
+        "zh": "去(表目的)",
+        "py": "吐",
+        "ipa": "/tuː/"
+      },
+      {
+        "w": "speak",
+        "zh": "说",
+        "py": "斯皮克",
+        "ipa": "/spiːk/"
+      },
+      {
+        "w": "with",
+        "zh": "和",
+        "py": "威兹",
+        "ipa": "/wɪð/"
+      },
+      {
+        "w": "friends",
+        "zh": "朋友",
+        "py": "弗兰兹",
+        "ipa": "/frendz/"
+      }
+    ],
+    "scenario": "日常"
+  },
+  {
+    "id": "t1",
+    "level": 1,
+    "scenario": "交通出行",
+    "text": "Where is the bus?",
+    "words": [
+      {
+        "w": "Where",
+        "zh": "哪里",
+        "py": "威尔",
+        "ipa": "/wer/"
+      },
+      {
+        "w": "is",
+        "zh": "是",
+        "py": "伊兹",
+        "ipa": "/ɪz/"
+      },
+      {
+        "w": "the",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "bus",
+        "zh": "公交车",
+        "py": "巴斯",
+        "ipa": "/bʌs/"
+      }
+    ]
+  },
+  {
+    "id": "t2",
+    "level": 1,
+    "scenario": "交通出行",
+    "text": "I take a taxi.",
+    "words": [
+      {
+        "w": "I",
+        "zh": "我",
+        "py": "艾",
+        "ipa": "/aɪ/"
+      },
+      {
+        "w": "take",
+        "zh": "乘坐",
+        "py": "忒克",
+        "ipa": "/teɪk/"
+      },
+      {
+        "w": "a",
+        "zh": "一辆",
+        "py": "厄",
+        "ipa": "/ə/"
+      },
+      {
+        "w": "taxi",
+        "zh": "出租车",
+        "py": "泰克西",
+        "ipa": "/ˈtæksi/"
+      }
+    ]
+  },
+  {
+    "id": "t3",
+    "level": 2,
+    "scenario": "交通出行",
+    "text": "The train is late.",
+    "words": [
+      {
+        "w": "The",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "train",
+        "zh": "火车",
+        "py": "垂恩",
+        "ipa": "/treɪn/"
+      },
+      {
+        "w": "is",
+        "zh": "是",
+        "py": "伊兹",
+        "ipa": "/ɪz/"
+      },
+      {
+        "w": "late",
+        "zh": "晚的",
+        "py": "累特",
+        "ipa": "/leɪt/"
+      }
+    ]
+  },
+  {
+    "id": "t4",
+    "level": 2,
+    "scenario": "交通出行",
+    "text": "We wait at the station.",
+    "words": [
+      {
+        "w": "We",
+        "zh": "我们",
+        "py": "威",
+        "ipa": "/wiː/"
+      },
+      {
+        "w": "wait",
+        "zh": "等待",
+        "py": "威特",
+        "ipa": "/weɪt/"
+      },
+      {
+        "w": "at",
+        "zh": "在",
+        "py": "艾特",
+        "ipa": "/æt/"
+      },
+      {
+        "w": "the",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "station",
+        "zh": "车站",
+        "py": "斯得申",
+        "ipa": "/ˈsteɪʃn/"
+      }
+    ]
+  },
+  {
+    "id": "t5",
+    "level": 3,
+    "scenario": "交通出行",
+    "text": "How much is the ticket?",
+    "words": [
+      {
+        "w": "How much",
+        "zh": "多少钱",
+        "py": "豪马吃",
+        "ipa": "/haʊ mʌtʃ/"
+      },
+      {
+        "w": "is",
+        "zh": "是",
+        "py": "伊兹",
+        "ipa": "/ɪz/"
+      },
+      {
+        "w": "the",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "ticket",
+        "zh": "票",
+        "py": "提凯特",
+        "ipa": "/ˈtɪkɪt/"
+      }
+    ]
+  },
+  {
+    "id": "t6",
+    "level": 3,
+    "scenario": "交通出行",
+    "text": "I miss the last subway.",
+    "words": [
+      {
+        "w": "I",
+        "zh": "我",
+        "py": "艾",
+        "ipa": "/aɪ/"
+      },
+      {
+        "w": "miss",
+        "zh": "错过",
+        "py": "密斯",
+        "ipa": "/mɪs/"
+      },
+      {
+        "w": "the",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "last",
+        "zh": "最后的",
+        "py": "拉斯特",
+        "ipa": "/læst/"
+      },
+      {
+        "w": "subway",
+        "zh": "地铁",
+        "py": "萨布威",
+        "ipa": "/ˈsʌbweɪ/"
+      }
+    ]
+  },
+  {
+    "id": "t7",
+    "level": 4,
+    "scenario": "交通出行",
+    "text": "Can you show me the way?",
+    "words": [
+      {
+        "w": "Can",
+        "zh": "能",
+        "py": "堪",
+        "ipa": "/kæn/"
+      },
+      {
+        "w": "you",
+        "zh": "你",
+        "py": "尤",
+        "ipa": "/juː/"
+      },
+      {
+        "w": "show",
+        "zh": "指给",
+        "py": "秀",
+        "ipa": "/ʃoʊ/"
+      },
+      {
+        "w": "me",
+        "zh": "我(宾格)",
+        "py": "米",
+        "ipa": "/miː/"
+      },
+      {
+        "w": "the",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "way",
+        "zh": "路",
+        "py": "威",
+        "ipa": "/weɪ/"
+      }
+    ]
+  },
+  {
+    "id": "t8",
+    "level": 4,
+    "scenario": "交通出行",
+    "text": "The bus stops at the hotel.",
+    "words": [
+      {
+        "w": "The",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "bus",
+        "zh": "公交车",
+        "py": "巴斯",
+        "ipa": "/bʌs/"
+      },
+      {
+        "w": "stops",
+        "zh": "停靠",
+        "py": "斯托普斯",
+        "ipa": "/stɑːps/"
+      },
+      {
+        "w": "at",
+        "zh": "在",
+        "py": "艾特",
+        "ipa": "/æt/"
+      },
+      {
+        "w": "the",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "hotel",
+        "zh": "酒店",
+        "py": "侯泰尔",
+        "ipa": "/hoʊˈtel/"
+      }
+    ]
+  },
+  {
+    "id": "t9",
+    "level": 5,
+    "scenario": "交通出行",
+    "text": "We should leave early to avoid traffic.",
+    "words": [
+      {
+        "w": "We",
+        "zh": "我们",
+        "py": "威",
+        "ipa": "/wiː/"
+      },
+      {
+        "w": "should",
+        "zh": "应该",
+        "py": "树的",
+        "ipa": "/ʃʊd/"
+      },
+      {
+        "w": "leave",
+        "zh": "离开",
+        "py": "利夫",
+        "ipa": "/liːv/"
+      },
+      {
+        "w": "early",
+        "zh": "早地",
+        "py": "厄利",
+        "ipa": "/ˈɜːrli/"
+      },
+      {
+        "w": "to",
+        "zh": "去(目的)",
+        "py": "吐",
+        "ipa": "/tuː/"
+      },
+      {
+        "w": "avoid",
+        "zh": "避开",
+        "py": "阿沃德",
+        "ipa": "/əˈvɔɪd/"
+      },
+      {
+        "w": "traffic",
+        "zh": "交通",
+        "py": "吹菲克",
+        "ipa": "/ˈtræfɪk/"
+      }
+    ]
+  },
+  {
+    "id": "t10",
+    "level": 5,
+    "scenario": "交通出行",
+    "text": "Please tell the driver to stop here.",
+    "words": [
+      {
+        "w": "Please",
+        "zh": "请",
+        "py": "普力兹",
+        "ipa": "/pliːz/"
+      },
+      {
+        "w": "tell",
+        "zh": "告诉",
+        "py": "特尔",
+        "ipa": "/tel/"
+      },
+      {
+        "w": "the",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "driver",
+        "zh": "司机",
+        "py": "拽佛",
+        "ipa": "/ˈdraɪvər/"
+      },
+      {
+        "w": "to",
+        "zh": "去(目的)",
+        "py": "吐",
+        "ipa": "/tuː/"
+      },
+      {
+        "w": "stop",
+        "zh": "停",
+        "py": "斯托普",
+        "ipa": "/stɑːp/"
+      },
+      {
+        "w": "here",
+        "zh": "这里",
+        "py": "希尔",
+        "ipa": "/hɪr/"
+      }
+    ]
+  },
+  {
+    "id": "s1",
+    "level": 1,
+    "scenario": "商场购物",
+    "text": "I want this.",
+    "words": [
+      {
+        "w": "I",
+        "zh": "我",
+        "py": "艾",
+        "ipa": "/aɪ/"
+      },
+      {
+        "w": "want",
+        "zh": "想要",
+        "py": "王特",
+        "ipa": "/wɑːnt/"
+      },
+      {
+        "w": "this",
+        "zh": "这个",
+        "py": "迪斯",
+        "ipa": "/ðɪs/"
+      }
+    ]
+  },
+  {
+    "id": "s2",
+    "level": 1,
+    "scenario": "商场购物",
+    "text": "How much is it?",
+    "words": [
+      {
+        "w": "How much",
+        "zh": "多少钱",
+        "py": "豪马吃",
+        "ipa": "/haʊ mʌtʃ/"
+      },
+      {
+        "w": "is",
+        "zh": "是",
+        "py": "伊兹",
+        "ipa": "/ɪz/"
+      },
+      {
+        "w": "it",
+        "zh": "它",
+        "py": "伊特",
+        "ipa": "/ɪt/"
+      }
+    ]
+  },
+  {
+    "id": "s3",
+    "level": 2,
+    "scenario": "商场购物",
+    "text": "This shirt is cheap.",
+    "words": [
+      {
+        "w": "This",
+        "zh": "这个",
+        "py": "迪斯",
+        "ipa": "/ðɪs/"
+      },
+      {
+        "w": "shirt",
+        "zh": "衬衫",
+        "py": "舍特",
+        "ipa": "/ʃɜːrt/"
+      },
+      {
+        "w": "is",
+        "zh": "是",
+        "py": "伊兹",
+        "ipa": "/ɪz/"
+      },
+      {
+        "w": "cheap",
+        "zh": "便宜的",
+        "py": "尺普",
+        "ipa": "/tʃiːp/"
+      }
+    ]
+  },
+  {
+    "id": "s4",
+    "level": 2,
+    "scenario": "商场购物",
+    "text": "Do you have a bigger size?",
+    "words": [
+      {
+        "w": "Do",
+        "zh": "助动词",
+        "py": "杜",
+        "ipa": "/duː/"
+      },
+      {
+        "w": "you",
+        "zh": "你",
+        "py": "尤",
+        "ipa": "/juː/"
+      },
+      {
+        "w": "have",
+        "zh": "有",
+        "py": "哈夫",
+        "ipa": "/hæv/"
+      },
+      {
+        "w": "a",
+        "zh": "一个",
+        "py": "厄",
+        "ipa": "/ə/"
+      },
+      {
+        "w": "bigger",
+        "zh": "更大的",
+        "py": "比格",
+        "ipa": "/ˈbɪɡər/"
+      },
+      {
+        "w": "size",
+        "zh": "尺寸",
+        "py": "赛兹",
+        "ipa": "/saɪz/"
+      }
+    ]
+  },
+  {
+    "id": "s5",
+    "level": 3,
+    "scenario": "商场购物",
+    "text": "Can I try it on?",
+    "words": [
+      {
+        "w": "Can",
+        "zh": "能",
+        "py": "堪",
+        "ipa": "/kæn/"
+      },
+      {
+        "w": "I",
+        "zh": "我",
+        "py": "艾",
+        "ipa": "/aɪ/"
+      },
+      {
+        "w": "try",
+        "zh": "试",
+        "py": "揣",
+        "ipa": "/traɪ/"
+      },
+      {
+        "w": "it",
+        "zh": "它",
+        "py": "伊特",
+        "ipa": "/ɪt/"
+      },
+      {
+        "w": "on",
+        "zh": "穿上",
+        "py": "昂",
+        "ipa": "/ɑːn/"
+      }
+    ]
+  },
+  {
+    "id": "s6",
+    "level": 3,
+    "scenario": "商场购物",
+    "text": "Where is the fitting room?",
+    "words": [
+      {
+        "w": "Where",
+        "zh": "哪里",
+        "py": "威尔",
+        "ipa": "/wer/"
+      },
+      {
+        "w": "is",
+        "zh": "是",
+        "py": "伊兹",
+        "ipa": "/ɪz/"
+      },
+      {
+        "w": "the",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "fitting",
+        "zh": "试衣",
+        "py": "菲廷",
+        "ipa": "/ˈfɪtɪŋ/"
+      },
+      {
+        "w": "room",
+        "zh": "房间",
+        "py": "入姆",
+        "ipa": "/ruːm/"
+      }
+    ]
+  },
+  {
+    "id": "s7",
+    "level": 4,
+    "scenario": "商场购物",
+    "text": "I will pay by card.",
+    "words": [
+      {
+        "w": "I",
+        "zh": "我",
+        "py": "艾",
+        "ipa": "/aɪ/"
+      },
+      {
+        "w": "will",
+        "zh": "将",
+        "py": "威尔",
+        "ipa": "/wɪl/"
+      },
+      {
+        "w": "pay",
+        "zh": "付款",
+        "py": "佩",
+        "ipa": "/peɪ/"
+      },
+      {
+        "w": "by",
+        "zh": "用",
+        "py": "拜",
+        "ipa": "/baɪ/"
+      },
+      {
+        "w": "card",
+        "zh": "卡",
+        "py": "卡德",
+        "ipa": "/kɑːrd/"
+      }
+    ]
+  },
+  {
+    "id": "s8",
+    "level": 4,
+    "scenario": "商场购物",
+    "text": "The price is too high.",
+    "words": [
+      {
+        "w": "The",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "price",
+        "zh": "价格",
+        "py": "普赖斯",
+        "ipa": "/praɪs/"
+      },
+      {
+        "w": "is",
+        "zh": "是",
+        "py": "伊兹",
+        "ipa": "/ɪz/"
+      },
+      {
+        "w": "too",
+        "zh": "太",
+        "py": "吐",
+        "ipa": "/tuː/"
+      },
+      {
+        "w": "high",
+        "zh": "高的",
+        "py": "嗨",
+        "ipa": "/haɪ/"
+      }
+    ]
+  },
+  {
+    "id": "s9",
+    "level": 5,
+    "scenario": "商场购物",
+    "text": "Could you give me a discount?",
+    "words": [
+      {
+        "w": "Could",
+        "zh": "能(委婉)",
+        "py": "库德",
+        "ipa": "/kʊd/"
+      },
+      {
+        "w": "you",
+        "zh": "你",
+        "py": "尤",
+        "ipa": "/juː/"
+      },
+      {
+        "w": "give",
+        "zh": "给",
+        "py": "给夫",
+        "ipa": "/ɡɪv/"
+      },
+      {
+        "w": "me",
+        "zh": "我(宾格)",
+        "py": "米",
+        "ipa": "/miː/"
+      },
+      {
+        "w": "a",
+        "zh": "一个",
+        "py": "厄",
+        "ipa": "/ə/"
+      },
+      {
+        "w": "discount",
+        "zh": "折扣",
+        "py": "迪斯康特",
+        "ipa": "/ˈdɪskaʊnt/"
+      }
+    ]
+  },
+  {
+    "id": "s10",
+    "level": 5,
+    "scenario": "商场购物",
+    "text": "I am looking for a gift.",
+    "words": [
+      {
+        "w": "I",
+        "zh": "我",
+        "py": "艾",
+        "ipa": "/aɪ/"
+      },
+      {
+        "w": "am",
+        "zh": "是",
+        "py": "艾姆",
+        "ipa": "/æm/"
+      },
+      {
+        "w": "looking",
+        "zh": "寻找",
+        "py": "路金",
+        "ipa": "/ˈlʊkɪŋ/"
+      },
+      {
+        "w": "for",
+        "zh": "为了",
+        "py": "佛",
+        "ipa": "/fɔːr/"
+      },
+      {
+        "w": "a",
+        "zh": "一个",
+        "py": "厄",
+        "ipa": "/ə/"
+      },
+      {
+        "w": "gift",
+        "zh": "礼物",
+        "py": "给夫特",
+        "ipa": "/ɡɪft/"
+      }
+    ]
+  },
+  {
+    "id": "r1",
+    "level": 1,
+    "scenario": "餐厅用餐",
+    "text": "I am hungry.",
+    "words": [
+      {
+        "w": "I",
+        "zh": "我",
+        "py": "艾",
+        "ipa": "/aɪ/"
+      },
+      {
+        "w": "am",
+        "zh": "是",
+        "py": "艾姆",
+        "ipa": "/æm/"
+      },
+      {
+        "w": "hungry",
+        "zh": "饿的",
+        "py": "航格瑞",
+        "ipa": "/ˈhʌŋɡri/"
+      }
+    ]
+  },
+  {
+    "id": "r2",
+    "level": 1,
+    "scenario": "餐厅用餐",
+    "text": "A table for two.",
+    "words": [
+      {
+        "w": "A",
+        "zh": "一",
+        "py": "厄",
+        "ipa": "/ə/"
+      },
+      {
+        "w": "table",
+        "zh": "桌子",
+        "py": "忒波",
+        "ipa": "/ˈteɪbl/"
+      },
+      {
+        "w": "for",
+        "zh": "给",
+        "py": "佛",
+        "ipa": "/fɔːr/"
+      },
+      {
+        "w": "two",
+        "zh": "二",
+        "py": "吐",
+        "ipa": "/tuː/"
+      }
+    ]
+  },
+  {
+    "id": "r3",
+    "level": 2,
+    "scenario": "餐厅用餐",
+    "text": "I want some water.",
+    "words": [
+      {
+        "w": "I",
+        "zh": "我",
+        "py": "艾",
+        "ipa": "/aɪ/"
+      },
+      {
+        "w": "want",
+        "zh": "想要",
+        "py": "王特",
+        "ipa": "/wɑːnt/"
+      },
+      {
+        "w": "some",
+        "zh": "一些",
+        "py": "萨姆",
+        "ipa": "/sʌm/"
+      },
+      {
+        "w": "water",
+        "zh": "水",
+        "py": "沃特",
+        "ipa": "/ˈwɔːtər/"
+      }
+    ]
+  },
+  {
+    "id": "r4",
+    "level": 2,
+    "scenario": "餐厅用餐",
+    "text": "The menu, please.",
+    "words": [
+      {
+        "w": "The",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "menu",
+        "zh": "菜单",
+        "py": "梅纽",
+        "ipa": "/ˈmenjuː/"
+      },
+      {
+        "w": "please",
+        "zh": "请",
+        "py": "普力兹",
+        "ipa": "/pliːz/"
+      }
+    ]
+  },
+  {
+    "id": "r5",
+    "level": 3,
+    "scenario": "餐厅用餐",
+    "text": "What do you recommend?",
+    "words": [
+      {
+        "w": "What",
+        "zh": "什么",
+        "py": "沃特",
+        "ipa": "/wɑːt/"
+      },
+      {
+        "w": "do",
+        "zh": "助动词",
+        "py": "杜",
+        "ipa": "/duː/"
+      },
+      {
+        "w": "you",
+        "zh": "你",
+        "py": "尤",
+        "ipa": "/juː/"
+      },
+      {
+        "w": "recommend",
+        "zh": "推荐",
+        "py": "瑞可门德",
+        "ipa": "/ˌrekəˈmend/"
+      }
+    ]
+  },
+  {
+    "id": "r6",
+    "level": 3,
+    "scenario": "餐厅用餐",
+    "text": "I would like coffee.",
+    "words": [
+      {
+        "w": "I",
+        "zh": "我",
+        "py": "艾",
+        "ipa": "/aɪ/"
+      },
+      {
+        "w": "would",
+        "zh": "想要(委婉)",
+        "py": "伍德",
+        "ipa": "/wʊd/"
+      },
+      {
+        "w": "like",
+        "zh": "喜欢",
+        "py": "赖克",
+        "ipa": "/laɪk/"
+      },
+      {
+        "w": "coffee",
+        "zh": "咖啡",
+        "py": "考菲",
+        "ipa": "/ˈkɔːfi/"
+      }
+    ]
+  },
+  {
+    "id": "r7",
+    "level": 4,
+    "scenario": "餐厅用餐",
+    "text": "Could we have the bill?",
+    "words": [
+      {
+        "w": "Could",
+        "zh": "能(委婉)",
+        "py": "库德",
+        "ipa": "/kʊd/"
+      },
+      {
+        "w": "we",
+        "zh": "我们",
+        "py": "威",
+        "ipa": "/wiː/"
+      },
+      {
+        "w": "have",
+        "zh": "有",
+        "py": "哈夫",
+        "ipa": "/hæv/"
+      },
+      {
+        "w": "the",
+        "zh": "这(定冠词)",
+        "py": "泽",
+        "ipa": "/ðə/"
+      },
+      {
+        "w": "bill",
+        "zh": "账单",
+        "py": "比尔",
+        "ipa": "/bɪl/"
+      }
+    ]
+  },
+  {
+    "id": "r8",
+    "level": 4,
+    "scenario": "餐厅用餐",
+    "text": "This food is delicious.",
+    "words": [
+      {
+        "w": "This",
+        "zh": "这个",
+        "py": "迪斯",
+        "ipa": "/ðɪs/"
+      },
+      {
+        "w": "food",
+        "zh": "食物",
+        "py": "夫德",
+        "ipa": "/fuːd/"
+      },
+      {
+        "w": "is",
+        "zh": "是",
+        "py": "伊兹",
+        "ipa": "/ɪz/"
+      },
+      {
+        "w": "delicious",
+        "zh": "美味的",
+        "py": "迪利射斯",
+        "ipa": "/dɪˈlɪʃəs/"
+      }
+    ]
+  },
+  {
+    "id": "r9",
+    "level": 5,
+    "scenario": "餐厅用餐",
+    "text": "I am allergic to peanuts.",
+    "words": [
+      {
+        "w": "I",
+        "zh": "我",
+        "py": "艾",
+        "ipa": "/aɪ/"
+      },
+      {
+        "w": "am",
+        "zh": "是",
+        "py": "艾姆",
+        "ipa": "/æm/"
+      },
+      {
+        "w": "allergic",
+        "zh": "过敏的",
+        "py": "阿勒吉克",
+        "ipa": "/əˈlɜːrdʒɪk/"
+      },
+      {
+        "w": "to",
+        "zh": "对",
+        "py": "吐",
+        "ipa": "/tuː/"
+      },
+      {
+        "w": "peanuts",
+        "zh": "花生",
+        "py": "皮纳兹",
+        "ipa": "/ˈpiːnʌts/"
+      }
+    ]
+  },
+  {
+    "id": "r10",
+    "level": 5,
+    "scenario": "餐厅用餐",
+    "text": "We order two bowls of noodles.",
+    "words": [
+      {
+        "w": "We",
+        "zh": "我们",
+        "py": "威",
+        "ipa": "/wiː/"
+      },
+      {
+        "w": "order",
+        "zh": "点餐",
+        "py": "欧德",
+        "ipa": "/ˈɔːrdər/"
+      },
+      {
+        "w": "two",
+        "zh": "二",
+        "py": "吐",
+        "ipa": "/tuː/"
+      },
+      {
+        "w": "bowls",
+        "zh": "碗",
+        "py": "波兹",
+        "ipa": "/boʊlz/"
+      },
+      {
+        "w": "of",
+        "zh": "…的",
+        "py": "厄夫",
+        "ipa": "/əv/"
+      },
+      {
+        "w": "noodles",
+        "zh": "面条",
+        "py": "努斗兹",
+        "ipa": "/ˈnuːdlz/"
+      }
+    ]
+  }
+]
